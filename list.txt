@@ -1,6 +1,7 @@
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
-winget install nu
+winget install nushell
 scoop bucket add extras
-scoop install extras/alacritty main/starship extras/altsnap extras/komorebi
+scoop install extras/alacritty main/starship extras/altsnap extras/glazewm main/git main/neovim
+git clone https://github.com/NvChad/starter $ENV:USERPROFILE\AppData\Local\nvim && nvim
