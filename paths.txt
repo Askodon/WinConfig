@@ -1,3 +1,4 @@
 C:\Users\Tsumoron\.glzr\glazewm
 C:\Users\Tsumoron\AppData\Roaming\alacritty\
 C:\Users\Tsumoron\AppData\Roaming\nushell\config.nu
+C:\Users\Tsumoron\AppData\Local\Microsoft\Windows\Fonts

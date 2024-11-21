@@ -1,0 +1,4 @@
+[terminal.shell]
+program = "nu"
+[font]
+normal.family = "JetBrainsMono Nerd Font" 
