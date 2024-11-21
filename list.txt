@@ -3,6 +3,6 @@ Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 
 winget install nushell
 scoop bucket add extras nerd-fonts
-scoop install extras/alacritty main/starship extras/altsnap extras/glazewm main/git main/neovim main/7zip extras/vlc nerd-fonts/FiraCode main/fd main/mingw main/coreutils extras/keepassxc extras/transmission extras/obsidian extras/firefox extras/libreoffice extras/nextcloud extras/vscode extras/obs-studio extras/handbrake extras/powertoys extras/okular main/gitui main/gh extras/everything-powertoys main/dua main/ripgrep main/bat
+scoop install extras/alacritty main/starship extras/altsnap extras/glazewm main/git main/neovim main/7zip extras/vlc nerd-fonts/FiraCode main/fd main/mingw main/coreutils extras/keepassxc extras/transmission extras/obsidian extras/firefox extras/libreoffice extras/nextcloud extras/vscode extras/obs-studio extras/handbrake extras/powertoys extras/okular main/gitui main/gh extras/everything-powertoys main/dua main/ripgrep main/bat extras/everything
 
 git clone https://github.com/NvChad/starter $ENV:USERPROFILE\AppData\Local\nvim
